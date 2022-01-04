@@ -1,1 +1,9 @@
-
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/fornecedor
+    username: root
+    password: example
+    driver-class-name: org.mariadb.jdbc.Driver
